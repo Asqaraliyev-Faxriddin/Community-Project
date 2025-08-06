@@ -20,7 +20,7 @@
 
 .header_logo {
     display: flex;
-    background-attachment: fixed;
+    background-attachment: fixed; 
     margin-left: 90px;
     border: 2px solid transparent;
 }
