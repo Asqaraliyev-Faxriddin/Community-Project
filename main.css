@@ -132,7 +132,8 @@
 
 .img_container_main_text {
     position: absolute;
-    margin-right: 710px;
+    margin-right: 750px;
+    margin-left: 60px;
     margin-top: 240px;
     background-color: white;
     height: 360px;
