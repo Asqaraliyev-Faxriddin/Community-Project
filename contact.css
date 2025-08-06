@@ -1,0 +1,302 @@
+.header_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 190px;
+    border: 3px transparent;
+
+}
+
+
+.header_logo {
+    display: flex;
+    background-attachment: fixed;
+    margin-left: 90px;
+    border: 2px solid transparent;
+}
+
+.header_logo:hover {
+    transition: 1.5s;
+    transform: scale(1.1);
+
+}
+
+.header_logo:active {
+
+    border: 3px dotted black;
+}
+
+.iteams_navbar {
+    border: 3px solid transparent;
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-left: 260px;
+}
+
+.header_txt {
+    border: 3px transparent;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_txt li {
+    border: 3px solid transparent;
+    list-style-type: none;
+
+}
+
+
+
+
+.header_txt li:hover {
+    cursor: pointer;
+    color: #5fb4a2;
+    border: 3px dotted black;
+
+    transition: 1.5s;
+
+}
+
+.header_txt li:active {
+    border: 3px dotted black;
+
+    cursor: pointer;
+    list-style-type: none;
+    color: #5fb4a2;
+    transition: 1.5s;
+
+}
+
+
+.header_txt li a {
+    text-decoration: none;
+    color: black;
+    border: 3px solid transparent;
+
+
+}
+
+.header_txt li a:hover {
+
+    cursor: pointer;
+    text-decoration: none;
+    color: #5fb4a2;
+    transition: 1.5s;
+
+
+
+}
+
+.header_txt li a:active {
+    cursor: pointer;
+    text-decoration: none;
+    color: #5fb4a2;
+    transition: 1.5s;
+}
+
+hr {
+    width: 1250px;
+    margin-top: 1px;
+    background-color: rgb(116, 128, 139);
+    margin-left: 370px;
+}
+
+*:focus {
+    outline: none;
+}
+
+.h11 {
+    margin-left: 390px;
+    margin-top: 45px;
+    font-size: 40px;
+    color: #33323d;
+}
+
+.h44 {
+    width: 696px;
+    margin-left: 860px;
+    letter-spacing: 1px;
+    margin-top: -70px;
+    /* letter-spacing: px; */
+    color: #333a42;
+    line-height: 1.6;
+    font-weight: 100;
+    font-size: 20px;
+    display: block;
+}
+
+.imgss {
+    margin-left: 850px;
+}
+
+.qush {
+    margin-left: 15px;
+}
+
+.in {
+    margin-left: 15px;
+}
+
+.hr1 {
+        width: 1250px;
+    margin-top: 50px;
+    margin-left: 370px;
+}
+
+.input1 {
+    margin-left: 880px;
+    width: 690px;
+    height: 40px;
+    margin-top: -400px;
+    border: none;
+    background-color: #e6e6e7;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.input2 {
+    margin-left: 880px;
+    width: 690px;
+    height: 90px;
+    margin-top: -45px;
+    border: none;
+    background-color: #e6e6e7;
+    border-radius: 8px;
+    /* padding: 10px; */
+    padding-top: -40px;
+    padding-left: 10px;
+
+    position: absolute;
+
+}
+
+.input1:focus {
+    border: dotted 6px;
+
+}
+
+.input2:focus {
+    border: dotted 6px;
+}
+
+.input2::placeholder {
+    margin-top: 50px;
+}
+
+.name {
+    margin-left: 888px;
+    margin-top: -70px;
+}
+
+
+.email {
+    margin-left: 888px;
+    margin-top: px;
+}
+
+.but {
+    margin-left: 888px;
+    margin-top: 90px;
+    height: 60px;
+    width: 250px;
+    background-color: #33323d;
+    color: #d1ecf3;
+    border-radius: 8px;
+}
+
+.but:hover {
+    background-color: floralwhite;
+    color: #000;
+}
+
+.footer {
+    gap: 60px;
+    display: flex;
+    background-color: #33323d;
+    height: 60px;
+}
+
+.footer li {
+    font-size: 13px;
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    color: white;
+}
+
+.list_iteams {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+
+.logo_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px red;
+
+}
+
+.logo_img img {
+    border: 3px solid transparent;
+}
+
+.logo_img img:hover {
+    transition: 1.5s;
+    transform: scale(1.1);
+}
+
+.logo_img img:active {
+
+    border: 2px dotted white
+}
+
+
+.img_list {
+    width: 100%;
+    margin-left: 229px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+
+.logo_images {
+    margin-left: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.logo_images img {
+    width: 5%;
+    border-radius: 50%;
+}
+
+.list_iteams li a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.list_iteams li a:hover {
+
+    text-decoration: none;
+    color: #5fb4a2;
+
+}
+
+
+.list_iteams li a:active {
+
+    text-decoration: none;
+    color: #5fb4a2;
+
+}
