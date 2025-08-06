@@ -135,3 +135,24 @@ i {
     width: 5%;
     border-radius: 50%;
 }
+
+.list_iteams li a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.list_iteams li a:hover {
+
+    text-decoration: none;
+    color: #5fb4a2;
+    
+}
+
+
+.list_iteams li a:active {
+
+    text-decoration: none;
+    color: #5fb4a2;
+    
+}
