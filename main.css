@@ -14,8 +14,7 @@
     width: 100%;
     /* gap: 130px; */
     height: 190px;
-    border: 2px solid red;
-
+    
 }
 
 
@@ -117,10 +116,6 @@
     justify-content: center;
 }
 
-i {
-    background-color: red;
-    color: blue;
-}
 
 .logo_images {
     margin-left: 280px;
