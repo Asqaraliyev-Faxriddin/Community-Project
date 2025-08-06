@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.footer {
+    gap: 60px;
+    display: flex;
+    background-color: #33323d;
+    height: 60px;
+}
+
+.footer li {
+    font-size: 13px;
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    color: white;
+}
+
+.list_iteams {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+
+.logo_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_list{
+    margin-left: 300px;
+    border: 2px solid red;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+i {
+    background-color: red;
+    color: blue;
+}
